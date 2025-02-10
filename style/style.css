@@ -1,0 +1,83 @@
+
+  /* Font Styles and Colors */
+
+h1 {
+    color: rgb(150, 15, 168);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: italic;
+    font-family: monospace;
+    background-color: aquamarine;
+    padding-top: 100px;
+  }
+
+  h2 {color: blueviolet;
+      font-size: medium;
+      font-style: oblique;}
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  .footer {font-weight: bold;
+    font-size: x-small;
+    color: coral;
+    padding-top: 50px;}
+  
+  .navstyles {background-color: aqua;
+    font-size:medium;
+    font-weight:300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;}
+
+    .list1 {
+        background-color: rgb(225, 255, 0);}
+
+
+
+  /* Below are universal/page styles */
+
+  body {background-color: beige;
+        padding-left: 100px;
+
+  .bodystyles { padding-left: 100px;}
+
+
+
+
+/* Below are section  styles */
+
+.section1 {padding-bottom: 25px; }
+
+.section2 {padding-bottom: 25px; }
+
+.firstblockofimages {padding-block: 20px;}
+
+.liststyle1 {padding-left: 50px;
+background-color: blanchedalmond;}
+
+
+  /* Below are link styles */
+
+  /* unvisited link */
+a:link {
+    color: rgb(56, 19, 221);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(73, 0, 128);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color:  rgb(56, 19, 221);
+  }
+
+
+  }
