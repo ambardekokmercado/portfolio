@@ -49,10 +49,22 @@ h1 {
 
   /* Below are universal/page styles */
 
+  /* This box-sizing style reates a global style declaration so that all elements use border-box */
+
+  * {
+       box-sizing: border-box;>
+     }
+  
+  
   body {background-color: beige;
         padding-left: 100px;
 
   .bodystyles { padding-left: 100px;}
+
+  .flexbox-container {
+    display: flex ;
+    flex-direction: row-reverse;
+    } 
 
 
 
