@@ -44,6 +44,15 @@ h1 {
 
     .list1 {
         background-color: rgb(225, 255, 0);}
+        
+        /* Selects the second li element in a list */
+      
+        li:nth-child(2) {
+         background-color: lightgreen;}
+
+         p:nth-child(odd) {
+          background-color: rgb(234, 14, 238);
+        } 
 
 
 
@@ -66,7 +75,11 @@ h1 {
     flex-direction: row-reverse;
     } 
 
-
+    div:hover {
+      transition-timing-function: ease-in;
+      width: 1000px;
+      height: 100px;
+    }
 
 
 /* Below are section  styles */
