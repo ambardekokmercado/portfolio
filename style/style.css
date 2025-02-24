@@ -82,7 +82,7 @@ h1 {
     width: 1000px;
     height: max-content;
     background: rgb(186, 215, 39);
-    transition: width 2s, height 4s;
+    transition-delay: 2s;
   
     }
 
