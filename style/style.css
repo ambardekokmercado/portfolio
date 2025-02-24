@@ -79,7 +79,8 @@ h1 {
     } 
 
     div:hover {
-      transition-timing-function: ease-in;
+      transition-delay: 2s;
+      transition-timing-function: ease-in-out;
       transition-delay: 2s;
       width: 1000px;
       height: 100px;
