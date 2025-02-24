@@ -79,11 +79,11 @@ h1 {
     } 
 
     div:hover {
-      transition-delay: 2s;
-      transition-timing-function: ease-in-out;
-      transition-delay: 2s;
-      width: 1000px;
-      height: 100px;
+    width: 1000px;
+    height: 100px;
+    background: rgb(186, 215, 39);
+    transition: width 2s, height 4s;
+  
     }
 
 
